@@ -4,7 +4,7 @@
 
 **Vendredi 14 octobre**
 * 10h-12h – projet MediaCenter / lancement
-* 13h-17h – technologis web / TP
+* 13h-17h – technologies web / TP
 
 **Jeudi 20 octobre > mercredi 2 novembre**
 * Vacances
