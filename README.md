@@ -10,15 +10,19 @@
 
 **Jeudi 20 octobre > mercredi 2 novembre**
 * Vacances
+* Devoirs de Vacances
+    * https://www.codecademy.com/learn/web
+    * https://www.codecademy.com/learn/jquery
+    * https://www.codecademy.com/learn/learn-sass
 
 ---
 
 **Vendredi 4 novembre**
 * 9h-12h – technologies web / TP
-* 13h-17h – projet / liste fonctionnalités + architecture + premiers sketchs
+* 13h-17h – projet / liste fonctionnalités/composants + architecture + premiers sketchs
 
 **Mercredi 9 novembre**
-* 13h-17h – projet MediaCenter / wireframes + composants + sketching
+* 13h-17h – projet MediaCenter / wireframes + sketching
 
 **Jeudi 10 novembre**
 * 9h-12h – technologie web / TP
