@@ -22,14 +22,14 @@
 * 13h-17h – projet / liste fonctionnalités/composants + architecture + premiers sketchs
 
 **Mercredi 9 novembre**
-* 13h-17h – projet MediaCenter / wireframes + sketching
+* 13h-17h – projet MediaCenter / wireframes
 
 **Jeudi 10 novembre**
 * 9h-12h – technologie web / TP
-* 13h-17h – projet MediaCenter / design graphique
+* 13h-17h – projet MediaCenter / design graphique + prototypage
 
 **Lundi 14 novembre**
-* 9h-12h – projet MediaCenter / micro interactions
+* 9h-12h – projet MediaCenter / micro interactions + prototypage
 * 13h-17h – projet MediaCenter / évaluation ergonomique
 
 **Mardi 15 novembre**
