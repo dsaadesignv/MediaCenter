@@ -6,8 +6,12 @@
 * 10h-12h – projet MediaCenter / lancement
 * 13h-17h – technologies web / TP
 
+---
+
 **Jeudi 20 octobre > mercredi 2 novembre**
 * Vacances
+
+---
 
 **Vendredi 4 novembre**
 * 9h-12h – technologies web / TP
@@ -27,6 +31,7 @@
 **Mardi 15 novembre**
 * 10h-12h + 13h-17h – projet MediaCenter / développement
 
+---
 
 **Jeudi 17 novembre**
 * _workshop_
@@ -40,9 +45,12 @@
 **Mardi 22 novembre**
 * _workshop_
 
+---
 
 **Jeudi 24 novembre**
 * _Mois du graphisme Echirolles_
+
+---
 
 **Vendredi 25 novembre**
 * 10h-12h + 13h-17h – projet MediaCenter / développement
