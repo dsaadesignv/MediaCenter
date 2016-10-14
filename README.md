@@ -11,11 +11,13 @@
 **Jeudi 20 octobre > mercredi 2 novembre**
 * Vacances
 * Devoirs de Vacances
-    * https://www.codecademy.com/learn/web
-    * https://www.codecademy.com/learn/jquery
-    * https://www.codecademy.com/learn/learn-sass
-    * https://www.udacity.com/course/intro-to-html-and-css--ud304
-    * https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001
+    * Code
+        * https://www.codecademy.com/learn/web
+        * https://www.codecademy.com/learn/jquery
+        * https://www.codecademy.com/learn/learn-sass
+        * https://www.udacity.com/course/intro-to-html-and-css--ud304
+        * https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001
+    * Etat de l'art
 
 ---
 
