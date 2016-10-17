@@ -2,7 +2,7 @@
 
 ## Demande
 
-Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et contrôler un ensemble des médias (films, séries, albums, etc.) contenus dans un serveur.
+Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et contrôler un ensemble des médias (films, séries, albums, etc.) contenus dans un ou plusieurs appareils connectés au même réseau.
 
 ## Planning
 
