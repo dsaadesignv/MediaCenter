@@ -7,14 +7,14 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
 ## Planning
 
 **Vendredi 14 octobre**
-* 10h-12h – projet MediaCenter / lancement
-* 13h-17h – technologies web / TP
+* 10h-12h – [projet MediaCenter] / lancement
+* 13h-17h – [technologies web] / TP
 
 ---
 
 **Jeudi 20 octobre > mercredi 2 novembre**
 * Vacances
-* Devoirs de Vacances
+* Devoirs de vacances
     * Code
         * https://www.codecademy.com/learn/web
         * https://www.codecademy.com/learn/jquery
@@ -26,22 +26,22 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
 ---
 
 **Vendredi 4 novembre**
-* 9h-12h – [technologies web] / test devoirs de vacances - point projet
-* 13h-17h – [technologies web] point GitHub / p5.js
+* 9h-12h – [technologies web] / test devoirs de vacances + point projet
+* 13h-17h – [technologies web] point GitHub / _p5.js_
 
 **Mercredi 9 novembre**
-* 13h-17h – projet MediaCenter / projet / liste fonctionnalités/composants + architecture + premiers sketchs
+* 13h-17h – [projet MediaCenter] / liste fonctionnalités/composants + architecture + premiers sketchs
 
 **Jeudi 10 novembre**
 * 9h-12h – [technologie web] / wireframes
-* 13h-17h – projet MediaCenter / design graphique + prototypage
+* 13h-17h – [projet MediaCenter] / design graphique + prototypage
 
 **Lundi 14 novembre**
-* 9h-12h – projet MediaCenter / développement - point templates Angular + Sass
-* 13h-17h – projet MediaCenter / développement
+* 9h-12h – [projet MediaCenter] / développement - point templates Angular + Sass
+* 13h-17h – [projet MediaCenter] / développement
 
 **Mardi 15 novembre**
-* 10h-12h + 13h-17h – projet MediaCenter / développement
+* 10h-12h + 13h-17h – [projet MediaCenter] / développement
 
 ---
 
@@ -65,7 +65,7 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
 ---
 
 **Vendredi 25 novembre**
-* 10h-12h + 13h-17h – projet MediaCenter / développement
+* 10h-12h + 13h-17h – [projet MediaCenter] / développement
 
 ## Objectifs
 
@@ -78,16 +78,20 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
     * distinguer les différents niveaux de prototypage (fidélité)
     * mettre en place une identité graphique cohérente
 
-* Développement front-end et gestion des données
+
+* Développement
+  * Dev front-end
     * Distinguer structure HTML, mise en forme CSS et transformation JS
     * Structurer une interface en HTML5
     * Mettre en forme l’interface en CSS
     * Transformer l'interface avec jQuery
     * Connaître et mettre en oeuvre un framework CSS : Bootstrap
     * Connaître Sass
-    * Utiliser la console js et les outils de développement du navigateur
+  * Workflow
     * Gérer le développement d'une application sur GitHub (contrôle de version)
+    * Utiliser la console js et les outils de développement du navigateur
+    * Apprendre à utiliser une documentation
+  * Data
     * Comprendre la notation objet javascript JSON
     * Être capable de parcourir une structure de données
     * Savoir utiliser une API afin de récupérer des jeux de données choisis
-    * Apprendre à utiliser une documentation
