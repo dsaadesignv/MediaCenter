@@ -26,19 +26,19 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
 ---
 
 **Vendredi 4 novembre**
-* 9h-12h – technologies web / test devoir de vacances + fin TP
-* 13h-17h – projet / liste fonctionnalités/composants + architecture + premiers sketchs
+* 9h-12h – [technologies web] / test devoirs de vacances - point projet
+* 13h-17h – [technologies web] point GitHub / p5.js
 
 **Mercredi 9 novembre**
-* 13h-17h – projet MediaCenter / wireframes
+* 13h-17h – projet MediaCenter / projet / liste fonctionnalités/composants + architecture + premiers sketchs
 
 **Jeudi 10 novembre**
-* 9h-12h – technologie web / TP
+* 9h-12h – [technologie web] / wireframes
 * 13h-17h – projet MediaCenter / design graphique + prototypage
 
 **Lundi 14 novembre**
-* 9h-12h – projet MediaCenter / micro interactions + prototypage
-* 13h-17h – projet MediaCenter / évaluation ergonomique
+* 9h-12h – projet MediaCenter / développement - point templates Angular + Sass
+* 13h-17h – projet MediaCenter / développement
 
 **Mardi 15 novembre**
 * 10h-12h + 13h-17h – projet MediaCenter / développement
@@ -75,7 +75,7 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
     * porter attention aux micro-interactions
     * évaluer une interface (ergonomie)
     * mettre en place un workflow s'appuyant sur des outils pertinents
-    * distinguer les différents niveaux de prototypage
+    * distinguer les différents niveaux de prototypage (fidélité)
     * mettre en place une identité graphique cohérente
 
 * Développement front-end et gestion des données
