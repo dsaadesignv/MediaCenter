@@ -33,7 +33,7 @@ Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et c
 * 13h-17h – [projet MediaCenter] / liste fonctionnalités/composants + architecture + premiers sketchs
 
 **Jeudi 10 novembre**
-* 9h-12h – [technologie web] / wireframes
+* 8h-12h – [technologie web] / wireframes
 * 13h-17h – [projet MediaCenter] / design graphique + prototypage
 
 **Lundi 14 novembre**
