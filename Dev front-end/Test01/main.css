@@ -1,0 +1,85 @@
+/*Bootrstrap normalise automatiquement*/
+
+body{
+  font-family: sans-serif;
+  background-color: #333;
+  color: #CCC;
+}
+
+header{
+  height:300px;
+  display: flex;
+  align-items: center;
+}
+
+header img{
+  max-height: 260px;
+  margin: 20px;
+}
+
+header h1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header h1 span{
+  font-weight:normal;
+}
+
+header h2{
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #666;
+}
+
+/*Liste des titres*/
+
+table{
+  width: 100%;
+  border: 0;
+}
+
+/*Taille de la première cellule td de chaque ligne tr*/
+tr td:first-child{
+  width:50px;
+}
+
+/*Taille et couleur de la dernière cellule td de chaque ligne tr*/
+tr td:last-child{
+  width:60px;
+  color:#666;
+}
+
+/* icône */
+.glyphicon{
+  width: 30px;
+  height:30px;
+  border-radius: 16px;
+  border: 1px solid #FFF;
+  font-size: .8em;
+  line-height: 2.5em;
+  text-align: center;
+  color:#FFF;
+  margin:0 auto;
+}
+
+td{
+  height: 50px;
+  border-bottom: 1px solid #444;
+  padding-left:15px;
+}
+
+/*Survol des titres*/
+
+tr:hover td,tr:hover td:first-child .glyphicon{
+  background-color: rgb(119, 224, 199);
+  color:#000;
+  border-color:#000;
+}
+
+/*Quand un titre est sélectionné au clic*/
+
+.selected{
+  color:rgb(119, 224, 199);
+  background-color: #444;
+}
