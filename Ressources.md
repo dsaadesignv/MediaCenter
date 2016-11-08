@@ -26,11 +26,12 @@
 ## UI design
 * [Figma](https://www.figma.com)
 * [Sketch](https://www.sketchapp.com)
-* [UXPin](https://www.uxpin.com/)
+* [UXPin](https://www.uxpin.com)
+* [Balsamiq](https://balsamiq.com)
 
 ## Diagrammes
 * [Draw.io](https://www.draw.io)
-* [Lucidchart](https://www.lucidchart.com/)
+* [Lucidchart](https://www.lucidchart.com)
 
 ## Prototypage
 * [Marvel](https://marvelapp.com)
