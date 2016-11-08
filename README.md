@@ -2,7 +2,9 @@
 
 ## Demande
 
-Concevoir l'interface d'un Media Center permettant de parcourir, rechercher et contrôler un ensemble des médias (films, séries, albums, etc.) contenus dans un ou plusieurs appareils connectés au même réseau.
+Concevoir l'interface d'une application "client" permettant de parcourir et contrôler les médias (films, séries, photos, etc.) contenus dans l'ensemble des serveurs UPnP connectés au réseau local.
+
+Document de lancement : [https://docs.google.com/presentation/d/1fzUFK_b5dqxeuKQCXvX-zp25Tzpx9WDMp5IWAbBDWdo/edit](https://docs.google.com/presentation/d/1fzUFK_b5dqxeuKQCXvX-zp25Tzpx9WDMp5IWAbBDWdo/edit)
 
 ## Planning
 
