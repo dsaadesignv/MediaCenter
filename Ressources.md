@@ -1,6 +1,14 @@
 # UI design
-* Collection de wireframes : [http://littleplaneapp.com](http://littleplaneapp.com)
-* Inspiration : [https://uimovement.com](https://uimovement.com)
+## Patterns
+* [http://littleplaneapp.com](http://littleplaneapp.com)
+* [http://pttrns.com](http://pttrns.com)
+* [http://www.mobile-patterns.com](http://www.mobile-patterns.com)
+
+## Inspiration
+* [https://dribbble.com/search?q=ui+design](https://dribbble.com/search?q=ui+design)
+* [http://inspired-ui.com](http://inspired-ui.com)
+* [http://ui.theultralinx.com/](http://ui.theultralinx.com/)
+* [https://uimovement.com](https://uimovement.com)
 
 # Développement
 ## Intégration web
@@ -9,6 +17,7 @@
 * https://www.udacity.com/course/intro-to-html-and-css--ud304
 * https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001
 * https://www.codeschool.com/learn/html-css
+
 ## Javascript
 * https://www.codecademy.com/learn/jquery
 * https://www.codeschool.com/learn/javascript
