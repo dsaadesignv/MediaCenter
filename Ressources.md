@@ -9,6 +9,11 @@
 * [http://inspired-ui.com](http://inspired-ui.com)
 * [http://ui.theultralinx.com/](http://ui.theultralinx.com/)
 * [https://uimovement.com](https://uimovement.com)
+* [http://littlebigdetails.com](http://littlebigdetails.com)
+* [hover(pas possible app, mais à regarder pour animations](http://tympanus.net/Development/TextStylesHoverEffects/)
+* [link](http://tympanus.net/Development/CreativeLinkEffects/)
+* [caption](http://tympanus.net/Tutorials/CaptionHoverEffects/index2.html)
+* [livre : Dan Saffer, Microinteractions, 2013](http://microinteractions.com)
 
 # Développement
 ## Intégration web
@@ -28,6 +33,7 @@
 * [Sketch](https://www.sketchapp.com)
 * [UXPin](https://www.uxpin.com)
 * [Balsamiq](https://balsamiq.com)
+* [POP paper sketch](https://popapp.in)
 
 ## Diagrammes
 * [Draw.io](https://www.draw.io)
