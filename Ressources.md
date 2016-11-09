@@ -10,7 +10,7 @@
 * [http://ui.theultralinx.com/](http://ui.theultralinx.com/)
 * [https://uimovement.com](https://uimovement.com)
 * [http://littlebigdetails.com](http://littlebigdetails.com)
-* [hover(pas possible app, mais à regarder pour animations](http://tympanus.net/Development/TextStylesHoverEffects/)
+* [hover (pas possible app, mais à regarder pour animations)](http://tympanus.net/Development/TextStylesHoverEffects/)
 * [link](http://tympanus.net/Development/CreativeLinkEffects/)
 * [caption](http://tympanus.net/Tutorials/CaptionHoverEffects/index2.html)
 * [livre : Dan Saffer, Microinteractions, 2013](http://microinteractions.com)
