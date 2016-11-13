@@ -88,7 +88,8 @@ Document de lancement : [https://docs.google.com/presentation/d/1fzUFK_b5dqxeuKQ
     * Mettre en forme l’interface en CSS
     * Transformer l'interface avec jQuery
     * Connaître et mettre en oeuvre un framework CSS : Bootstrap
-    * Connaître Sass
+    * Utiliser Sass
+    * Connaître AngularJS
   * Workflow
     * Gérer le développement d'une application sur GitHub (contrôle de version)
     * Utiliser la console js et les outils de développement du navigateur
