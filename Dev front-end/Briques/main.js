@@ -1,7 +1,9 @@
 $(document).ready(function() {
   // menu hamburger
   $('.h-menu').on('click',function(){
-    $('section').toggleClass('slideLeft');
+    $(this).toggleClass('glyphicon-menu-hamburger').toggleClass('glyphicon-remove');
+    $('section')
+      .toggleClass('slideLeft')
   });
 
   // mouseover/mouseout

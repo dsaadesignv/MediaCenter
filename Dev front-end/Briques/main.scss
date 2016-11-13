@@ -33,6 +33,10 @@ white; width: 400px;} 100% {background: white; width: 600px;} } @keyframes out{
   left:$menuWidth;
 }
 
+.slideRight{
+  left:0px;
+}
+
 // Styles
 body{
   background: $colorBg;
