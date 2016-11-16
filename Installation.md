@@ -1,6 +1,20 @@
-# Installer l'application
+# Installations
 
-## Forker une version locale du projet m1m-clients
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Installations](#installations)
+	- [Installer l'application](#installer-lapplication)
+		- [Forker une version locale du projet m1m-clients](#forker-une-version-locale-du-projet-m1m-clients)
+		- [Installer le projet](#installer-le-projet)
+		- [Lancer le client](#lancer-le-client)
+		- [Connecter le client au serveur TactHAB](#connecter-le-client-au-serveur-tacthab)
+	- [Installer le serveur UPnP sur sa machine](#installer-le-serveur-upnp-sur-sa-machine)
+
+<!-- /TOC -->
+
+## Installer l'application
+
+### Forker une version locale du projet m1m-clients
 
 * Allez sur GitHub et connectez-vous
 * Allez sur la page du projet :  `https://github.com/AlexDmr/m1m-clients`
@@ -17,7 +31,7 @@ cd /chemin/du/dossier/
 git clone https://github.com/VOTRE_COMPTE/m1m-clients.git
 ```
 
-## Installer le projet
+### Installer le projet
 
 * Installez Node : https://nodejs.org/en/
 * Une fois Node installé, déplacez-vous dans le dossier `m1m-clients` et installez les dépendances
@@ -43,7 +57,7 @@ npm install -g gulp
 gulp
 ```
 
-## Lancer le client
+### Lancer le client
 
 * Déplacez-vous dans le dossier `/chemin/du/dossier/m1m-clients/`
 ```
@@ -55,17 +69,17 @@ node miniServerHTTP.js
 ```
 * Ouvrez le navigateur et rendez-vous à l'adresse `http://localhost:8080`
 
-## Connecter le client au serveur TactHAB
+### Connecter le client au serveur TactHAB
 
 * Dans la page d'accueil, entrez l'adresse IP du serveur (par exemple : `http://192.168.20.22:8888`)
 * Puis cliquez sur Angular 2 pour accéder à l'application
 
-# Installer le serveur UPnP sur sa machine
+## Installer le serveur UPnP sur sa machine
 
 * Installez VirtualBox https://www.virtualbox.org/
 * Installez une nouvelle machine virtuelle avec Ubuntu 16.04 LTS
 * Dans le menu de configuration de la machine de VirtualBox, configurez le réseau en choisissant "Accès par pont" pour le mode d’accès, et en sélectionnant le réseau par lequel vous vous connectez à internet (wifi en général).
-* Lancez la machine en cliquant sur le bouton "démarrer" et suivz la procédure d'installation d'Ubuntu
+* Lancez la machine en cliquant sur le bouton "démarrer" et suivez la procédure d'installation d'Ubuntu
 * Une fois Ubuntu installé lancez le Terminal et vérifiez que node est installé
 ```
 node --version
