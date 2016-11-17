@@ -61,6 +61,11 @@ Document de lancement : [https://docs.google.com/presentation/d/1fzUFK_b5dqxeuKQ
 
 ---
 
+**Mercredi 23 novembre**
+* 13h-17h – [projet MediaCenter] / développement
+
+---
+
 **Jeudi 24 novembre**
 * _Mois du graphisme Echirolles_
 
