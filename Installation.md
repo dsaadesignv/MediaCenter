@@ -14,7 +14,7 @@
 
 ## Installer l'application
 
-### Forker une version locale du projet m1m-clients
+### Forker le projet m1m-clients
 
 * Allez sur GitHub et connectez-vous
 * Allez sur la page du projet :  `https://github.com/AlexDmr/m1m-clients`
