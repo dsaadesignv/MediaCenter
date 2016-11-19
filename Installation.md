@@ -4,7 +4,7 @@
 
 - [Installations](#installations)
 	- [Installer l'application](#installer-lapplication)
-		- [Forker une version locale du projet m1m-clients](#forker-une-version-locale-du-projet-m1m-clients)
+		- [Forker le projet m1m-clients](#forker-le-projet-m1m-clients)
 		- [Installer le projet](#installer-le-projet)
 		- [Lancer le client](#lancer-le-client)
 		- [Connecter le client au serveur TactHAB](#connecter-le-client-au-serveur-tacthab)
