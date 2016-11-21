@@ -90,6 +90,12 @@ Côté (S)CSS
   height:100vh;
   top: 90vh;
   transition: top .5s;
+    h2{
+    cursor: pointer;
+    &:hover{
+    color: #666;
+    }
+  }
 }
 .slideTop{
   top:50vh;
