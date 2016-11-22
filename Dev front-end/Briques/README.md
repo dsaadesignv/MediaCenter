@@ -1,15 +1,5 @@
 # Briques de développement
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Briques de développement](#briques-de-dveloppement)
-	- [Briques CSS](#briques-css)
-	- [Briques Angular](#briques-angular)
-		- [Événements](#vnements)
-		- [Effets](#effets)
-		- [_Carousel_ Bootstrap](#carousel-bootstrap)
-
-<!-- /TOC -->
 
 ## Briques CSS
 Ce dossier contient une série d'exemples CSS et jQuery :
@@ -30,6 +20,13 @@ Dans ce projet, nous utiliserons ces événements :
 * `(swipeLeft)`
 * `(swipeRight)`
 * `(click)`
+
+L'équivalent jQuery est :
+```js
+$('selecteur').on('evenement',function(){
+	doSomething();
+})
+```
 
 ### Effets
 Les effets sont essentiellement des modifications de classes. Les animations et transitions sont toutes déclarées en CSS. Nous utiliserons l'API classList et ses méthodes :
@@ -59,6 +56,15 @@ Côté (S)CSS
   animation-duration: .3s;
 }
 ```
+
+L'équivalent jQuery est :
+```js
+$('#idBalise').on('tap',function(){
+	$(this).toggleClass('nomClasse');
+})
+```
+
+#### Exemple
 
 Exemple vu en cours (slide depuis le bas au tap) :
 
@@ -103,7 +109,8 @@ Côté (S)CSS
 ```
 
 
-### _Carousel_ Bootstrap
+### Briques spécifiques
+#### _Carousel_ Bootstrap
 Puisque Bootstrap est chargé au démarrage, nous avons accès à ses composants Javascript : http://getbootstrap.com/javascript
 
 Le _carousel_ utilise des classes particulières du fichier `bootstrap.min.css`. Ces classes qui peuvent être personnalisées dans votre fichier .scss principal.
@@ -192,4 +199,54 @@ Dans l'application, nous (Alex) avons ajouté la prise en charge de swipeLeft et
         <span class="sr-only">Next</span>
     </a>
 </div>
+```
+
+#### _Breadcrumb_ (fil d'Ariane)
+Le fil d'Ariane de l'application a évolué pour être plus adapté à un affichage mobile. Celui-ci se trouve dans le template `m1m-media-browser.html`. Il affiche le nom du dossier parcouru et une flèche de retour vers le dossier parent.
+
+Côté template HTML :
+```html
+<header>
+		<span class="up" [class.active]="breadcrumb.length>0" (click)="browseParent()">
+			◀	<!--  flèche de retour -->
+		</span>
+		 <span>{{getCurrentItemName()}}</span> <!-- nom du dossier courant -->
+</header>
+```
+
+#### Objet `currentMedia`
+Quand un média est envoyé sur un lecteur, nous pouvons récupérer un certain nombre de métadonnées. Leur richesse dépend du serveur qui le met à disposition (par exemple Plex envoie les jaquettes, mais Kodi ne le fait pas). Voici un objet type en JSON :
+```json
+{
+  "serverId": "93edaea0-8b4b-252f-1e07-3df52eafd657",
+  "date": "2005-01-01",
+  "title": "Data: Microhelix",
+  "icon": "http://192.168.0.46:32469/proxy/7a1d9719b8157e8cce35/icon.jpg",
+  "mediaId": "159a0313dfe20ac5c297",
+  "creator": "Ryoji Ikeda",
+  "actors": [],
+  "genres": [
+    "Unknown"
+  ],
+  "albumarturi": "http://192.168.0.46:32469/proxy/88c79838d9a78cc485ce/albumart.jpg",
+  "description": "Data: Microhelix",
+  "longdescription": "",
+  "ressource": "http://192.168.0.46:32469/object/159a0313dfe20ac5c297/file.mp3",
+  "duration": "0:03:12.000",
+  "size": 0,
+  "resolution": "",
+  "bitrate": 24000,
+  "nrAudioChannels": 2,
+  "protocolInfo": "http-get:*:audio/mpeg:DLNA.ORG_PN=MP3;DLNA.ORG_OP=01;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01500000000000000000000000000000",
+  "classe": "object.item.audioItem.musicTrack"
+}
+
+```
+
+Ces informations sont accessibles dans le template `m1m-media-renderer.html` via dans le bloc suivant :
+```html
+<section *ngIf="currentMedia">
+		Title:{{currentMedia.title}} | Creator:{{currentMedia.creator}} | Duration: {{currentMedia.duration}}<br />
+		<img src="{{ currentMedia.icon }}" style="max-width:100px" />
+</section>
 ```
