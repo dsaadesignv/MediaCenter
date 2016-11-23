@@ -9,7 +9,7 @@
 - [II/ Briques Angular](#ii-briques-angular)
 	- [1. Événements](#1-vnements)
 	- [2. Effets](#2-effets)
-		- [Exemple 1 :](#exemple-1-)
+		- [Exemple 1](#exemple-1)
 		- [Exemple 2](#exemple-2)
 	- [3. Briques spécifiques](#3-briques-spcifiques)
 		- [3.1 _Carousel_ Bootstrap](#31-carousel-bootstrap)
