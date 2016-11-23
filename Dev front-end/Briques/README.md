@@ -5,7 +5,7 @@
 	- [keyframes-div](#keyframes-div)
 	- [bottom-div](#bottom-div)
 - [II/ Briques Angular](#ii-briques-angular)
-	- [1. Événements](#1-vnements)
+	- [1. Événements](#1-événements)
 	- [2. Effets](#2-effets)
 		- [Exemple](#exemple)
 	- [3. Briques spécifiques](#3-briques-spcifiques)
