@@ -54,7 +54,7 @@ Les effets sont essentiellement des modifications de classes. Les animations et 
 * `remove('nomClasse')`
 * `toggle('nomClasse')`
 
-#### Exemple 1 :
+#### Exemple 1
 
 Côté HTML
 ```html
