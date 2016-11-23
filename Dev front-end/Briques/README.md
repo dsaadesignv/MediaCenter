@@ -18,6 +18,7 @@ Ce dossier contient une série d'exemples CSS et jQuery :
 * **rounded-div** : utilisation d'une mixin Sass pour simplifier la création de l'élément circulaire, et animation au survol
 * **keyframes-div** : enchaînement d'animations CSS
 * **bottom-div** : animation au chargement de la page, ou à l'apparition de l'élément (exemple : nouvau renderer)
+
 ---
 ## II/ Briques Angular
 ### 1. Événements
@@ -255,7 +256,7 @@ Quand un média est envoyé sur un lecteur, nous pouvons récupérer un certain 
 
 ```
 
-Ces informations sont accessibles dans le template `m1m-media-renderer.html` via dans le bloc suivant :
+Ces informations sont accessibles dans le template `m1m-media-renderer.html` dans le bloc suivant :
 ```html
 <section *ngIf="currentMedia">
 		Title:{{currentMedia.title}} | Creator:{{currentMedia.creator}} | Duration: {{currentMedia.duration}}<br />
