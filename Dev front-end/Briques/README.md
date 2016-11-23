@@ -3,6 +3,9 @@
 
 - [Briques de développement](#briques-de-dveloppement)
 	- [I/ Briques CSS](#i-briques-css)
+		- [rounded-div](#rounded-div)
+		- [keyframes-div](#keyframes-div)
+		- [bottom-div](#bottom-div)
 	- [II/ Briques Angular](#ii-briques-angular)
 		- [1. Événements](#1-vnements)
 		- [2. Effets](#2-effets)
@@ -15,9 +18,12 @@
 <!-- /TOC -->
 ## I/ Briques CSS
 Ce dossier contient une série d'exemples CSS et jQuery :
-* **rounded-div** : utilisation d'une mixin Sass pour simplifier la création de l'élément circulaire, et animation au survol
-* **keyframes-div** : enchaînement d'animations CSS
-* **bottom-div** : animation au chargement de la page, ou à l'apparition de l'élément (exemple : nouvau renderer)
+### rounded-div
+Utilisation d'une mixin Sass pour simplifier la création de l'élément circulaire, et animation au survol
+### keyframes-div
+Enchaînement d'animations CSS
+### bottom-div
+Animation au chargement de la page, ou à l'apparition de l'élément (exemple : nouvau renderer)
 
 ---
 ## II/ Briques Angular
