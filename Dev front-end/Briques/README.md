@@ -1,17 +1,21 @@
 # Briques de développement
 
+
+
 - [I/ Briques CSS](#i-briques-css)
 	- [rounded-div](#rounded-div)
 	- [keyframes-div](#keyframes-div)
 	- [bottom-div](#bottom-div)
 - [II/ Briques Angular](#ii-briques-angular)
-	- [1. Événements](#1-événements)
+	- [1. Événements](#1-vnements)
 	- [2. Effets](#2-effets)
-		- [Exemple](#exemple)
+		- [Exemple 1 :](#exemple-1-)
+		- [Exemple 2](#exemple-2)
 	- [3. Briques spécifiques](#3-briques-spcifiques)
 		- [3.1 _Carousel_ Bootstrap](#31-carousel-bootstrap)
 		- [3.2 _Breadcrumb_ (fil d'Ariane)](#32-breadcrumb-fil-dariane)
 		- [3.3 Objet `currentMedia`](#33-objet-currentmedia)
+
 
 ## I/ Briques CSS
 Ce dossier contient une série d'exemples CSS et jQuery :
@@ -50,7 +54,7 @@ Les effets sont essentiellement des modifications de classes. Les animations et 
 * `remove('nomClasse')`
 * `toggle('nomClasse')`
 
-Exemple :
+#### Exemple 1 :
 
 Côté HTML
 ```html
@@ -80,7 +84,7 @@ $('#idBalise').on('tap',function(){
 })
 ```
 
-#### Exemple
+#### Exemple 2
 
 Exemple vu en cours (slide depuis le bas au tap) :
 
