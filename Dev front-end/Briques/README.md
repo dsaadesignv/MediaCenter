@@ -1,12 +1,25 @@
 # Briques de développement
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-## Briques CSS
+- [Briques de développement](#briques-de-dveloppement)
+	- [I/ Briques CSS](#i-briques-css)
+	- [II/ Briques Angular](#ii-briques-angular)
+		- [1. Événements](#1-vnements)
+		- [2. Effets](#2-effets)
+			- [Exemple](#exemple)
+		- [3. Briques spécifiques](#3-briques-spcifiques)
+			- [3.1 _Carousel_ Bootstrap](#31-carousel-bootstrap)
+			- [3.2 _Breadcrumb_ (fil d'Ariane)](#32-breadcrumb-fil-dariane)
+			- [3.3 Objet `currentMedia`](#33-objet-currentmedia)
+
+<!-- /TOC -->
+## I/ Briques CSS
 Ce dossier contient une série d'exemples CSS et jQuery :
 * **rounded-div** : utilisation d'une mixin Sass pour simplifier la création de l'élément circulaire, et animation au survol
 * **keyframes-div** : enchaînement d'animations CSS
 * **bottom-div** : animation au chargement de la page, ou à l'apparition de l'élément (exemple : nouvau renderer)
 ---
-## Briques Angular
+## II/ Briques Angular
 ### 1. Événements
 Les événements et leurs effets se déclarent directement dans les templates, comme attribut de balise HTML. Exemple :
 ```html
