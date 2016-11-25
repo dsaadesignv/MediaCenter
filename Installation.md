@@ -26,7 +26,7 @@
 ```
 cd /chemin/du/dossier/
 ```
-* Clonez votre _fork_ de `m1m-clients` en écruvant la commande `git clone` et en collant ensuite l'adresse du _fork_ que vous avez copiée
+* Clonez votre _fork_ de `m1m-clients` en écrivant la commande `git clone` et en collant ensuite l'adresse du _fork_ que vous avez copiée
 ```
 git clone https://github.com/VOTRE_COMPTE/m1m-clients.git
 ```
