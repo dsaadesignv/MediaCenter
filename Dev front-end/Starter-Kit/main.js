@@ -5,22 +5,22 @@ $(document).ready(function() {
     $('#splash').addClass('fadeout');
   });
 
-// click sur server Plex Media Server: RPI 3
+// click/tap sur server Plex Media Server: RPI 3
   $('#listeservers ul li:first-child').on('click',function(){
-    $('#listeservers').hide();
-    $('#servers #plex1niv1').removeClass('hidden').show();
+    $('#listeservers').addClass('hidden'); // la classe hidden est celle de Bootstrap
+    $('#servers #plex1niv1').removeClass('hidden').addClass('visible');
   });
 
-  // click sur songs
+  // click/tap sur songs
   $('#plex1niv1 #plex1songs').on('click',function(){
-    $('#plex1niv1').hide();
-    $('#servers #plex1niv2').removeClass('hidden').show();
+    $('#plex1niv1').addClass('hidden');
+    $('#servers #plex1niv2').removeClass('hidden').addClass('visible');
   });
 
-  // click sur Ikeda
+  // click/tap sur Ikeda
   $('#plex1niv2 #songikeda').on('click',function(){
     $(this).addClass('isplaying');
     $('#renderers ul li').append('<img src="ikeda.jpg"/>Data: Microhelix — Ryoji Ikeda');
+    $('#renderers ul li button').html('pause');
   });
-
 });
