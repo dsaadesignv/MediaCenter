@@ -8,6 +8,7 @@
 		- [Installer le projet](#installer-le-projet)
 		- [Lancer le client](#lancer-le-client)
 		- [Connecter le client au serveur TactHAB](#connecter-le-client-au-serveur-tacthab)
+		- [Accéder à l'application depuis un navigateur mobile](#accder-lapplication-depuis-un-navigateur-mobile)
 	- [Installer le serveur UPnP sur sa machine](#installer-le-serveur-upnp-sur-sa-machine)
 
 <!-- /TOC -->
@@ -72,7 +73,13 @@ node miniServerHTTP.js
 ### Connecter le client au serveur TactHAB
 
 * Dans la page d'accueil, entrez l'adresse IP du serveur (par exemple : `http://192.168.20.22:8888`)
-* Puis cliquez sur Angular 2 pour accéder à l'application
+* Puis cliquez sur "Angular 2" pour accéder à l'application
+
+### Accéder à l'application depuis un navigateur mobile
+* Notez l'adresse IP de votre ordinateur (sur Mac : Préférences > Réseau ou `ifconfig` depuis le Terminal, sur PC depuis Shell : `ipconfig`)
+* Connectez votre mobile au même réseau wifi
+* Entrez l'adresse IP de l'ordinateur dans votre navigateur mobile, et ajoutez `:8080` à la fin (http://ADRESSEIP:8080)
+* Le navigateur affiche la page d'accueil de l'application. Entrez l'adresse IP du serveur Docker puis cliquez sur le "Angular 2".
 
 ## Installer le serveur UPnP sur sa machine
 
