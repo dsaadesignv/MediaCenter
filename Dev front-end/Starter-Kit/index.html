@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="mobile-web-app-capable" content="yes">
+  <title>MC</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+  <div id="splash">
+    <span>(X)</span>
+  </div>
+
+  <section id="servers">
+    <h2>Media Servers</h2>
+
+    <div id="listeservers">
+    <ul>
+      <li><h3>Plex Media Server: RPI 3</h3></li>
+      <li><h3>Kodi (MONSUPERORDI)</h3></li>
+      <li><h3>Plex Media Server: MacBook Pro de Fanny</h3></li>
+    </ul>
+    </div>
+
+    <!-- niveau 1 des dossiers plex1 -->
+    <div id="plex1niv1" class="hidden">
+      <ul>
+        <li>Genres</li>
+        <li>Artists</li>
+        <li>Albums</li>
+        <li id="plex1songs">Songs</li>
+        <li>Years</li>
+        <li>Top 100</li>
+        <li>Recently added albums</li>
+        <li>Recently played albums</li>
+        <li>Playlists</li>
+      </ul>
+    </div>
+<!-- fin niveau 1 des dossiers plex1 -->
+
+<!-- niveau 2 des dossiers plex1 -->
+    <div id="plex1niv2" class="hidden">
+    <table cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td>
+              A Punchup at A Wedding — Radiohead
+            </td>
+            <td>
+              0:05:00.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              All Neon Like — Bjork
+            </td>
+            <td>
+              0:05:53.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              The Book of Right-On — Joanna Newsom
+            </td>
+            <td>
+              0:04:30.000
+            </td>
+        </tr>
+        <tr id="songikeda">
+            <td>
+              Data: Microhelix — Ryoji Ikeda
+            </td>
+            <td>
+              0:03:12.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Hard Sun — Eddie Vedder
+            </td>
+            <td>
+              0:05:22.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Insert — Opiate
+            </td>
+            <td>
+              0:04:02.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Move On Me — Fink
+            </td>
+            <td>
+              0:03:39.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Not A Number — Apparat
+            </td>
+            <td>
+              0:03:59.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              The Rip — Portishead
+            </td>
+            <td>
+              0:04:37.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              SURRIPERE — Autechre
+            </td>
+            <td>
+              0:11:23.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Vaihtovirta — Pan Sonic
+            </td>
+            <td>
+              0:06:40.000
+            </td>
+        </tr>
+        <tr>
+            <td>
+              Zoetrope — Boards of Canada
+            </td>
+            <td>
+              0:05:18.000
+            </td>
+        </tr>
+    </table>
+  </div>
+<!-- fin niveau 2 des dossiers plex1 -->
+  </section>
+
+  <section id="renderers">
+    <h2>Media Renderers</h2>
+    <ul>
+      <li>
+        <h3>Kodi (MONSUPERORDI)</h3>
+        <button>play</button>
+        <input type="range"></input>
+      </li>
+    </ul
+  </section>
+  <script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
