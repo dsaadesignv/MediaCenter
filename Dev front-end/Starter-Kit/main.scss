@@ -39,12 +39,12 @@
 }
 
 #renderers{
-  ul{
-    padding: 0;
-    margin: 0;
-    li{
-      background-color: #DDD;
-      list-style-type: none;
+  div{
+    div{
+      background-color: cyan;
+      input[type="range"]{
+        width:60vw;
+      }
       img{
         max-width: 200px;
       }

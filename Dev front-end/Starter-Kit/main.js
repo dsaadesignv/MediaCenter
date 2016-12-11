@@ -1,5 +1,14 @@
 /* jQuery */
 $(document).ready(function() {
+
+// Lancement Slick carousel
+$('.carousel').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  cssEase: 'linear'
+});
+
 // fermeture spash
   $('#splash span').on('click',function(){
     $('#splash').addClass('fadeout');
@@ -20,7 +29,7 @@ $(document).ready(function() {
   // click/tap sur Ikeda
   $('#plex1niv2 #songikeda').on('click',function(){
     $(this).addClass('isplaying');
-    $('#renderers ul li').append('<img src="ikeda.jpg"/>Data: Microhelix — Ryoji Ikeda');
-    $('#renderers ul li button').html('pause');
+    $('#kodi').append('<img src="ikeda.jpg"/>Data: Microhelix — Ryoji Ikeda');
+    $('#kodi button').html('pause');
   });
 });
