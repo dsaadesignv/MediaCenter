@@ -14,6 +14,7 @@
 * [link](http://tympanus.net/Development/CreativeLinkEffects/)
 * [caption](http://tympanus.net/Tutorials/CaptionHoverEffects/index2.html)
 * [livre : Dan Saffer, Microinteractions, 2013](http://microinteractions.com)
+* [How to Use Animation to Improve UX](https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.fb7vspchg)
 
 # Développement
 ## Intégration web
